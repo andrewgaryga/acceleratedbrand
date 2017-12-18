@@ -24,6 +24,11 @@
 	</head>
 
 	<body id="page-top">
+		<div class="topnav topnav-no-button">
+		  <a class="active home-logo home-logo-hide" href="#home"><img src="img/abs_logo_old.png" alt="" class="img-fluid" style="max-width: 245px;"></a>
+
+		 <a href="getstarted" class="btn btn-sign-static home-logo-hide">Sign Up Now</a>
+		</div>
 
 
 		<section id="terms">
@@ -105,21 +110,18 @@
 					  		<span><img src="img/abs_logo.png" alt="" class="img-fluid"></span>
 					  		<br>
 					  		<span class="footer-subtext">
-					  			
+					  			Atlanta <span>&#8226;</span> Orlando <span>&#8226;</span> New York
 					  		</span>
 					  	</div>
 
 					  </div>
-					  <div class="col">
-					  	<ul>
-					  		<li><a href="index.html#page-top" class=" js-scroll-trigger">Home</a></li>
-					  		<li><a href="index.html#how-it-works" class=" js-scroll-trigger">How it works</a></li>
-					  		<li><a href="index.html#placement" class=" js-scroll-trigger">Ad placement</a></li>
-					  		<li><a href="index.html#feature" class=" js-scroll-trigger">Payment Process</a></li>
-					  		<li><a href="index.html#contact" class=" js-scroll-trigger">Contact Us</a></li>
-					  	</ul>
+					  <div class="col getstarted-footer-col">
+
 					  </div>
-					  <div class="col hidden-sm"><span class="footer-center-align"><i class="fa fa-paper-plane-o" aria-hidden="true"></i><a href="mailto:info@acceleratedbrand.com">info@acceleratedbrand.com</a></span></div>
+					  <div class="col hidden-sm"><span class="footer-center-align">
+					  	<i class="fa fa-paper-plane-o" aria-hidden="true"></i><a href="mailto:info@acceleratedbrand.com">info@acceleratedbrand.com</a>
+					  	<i class="fa fa-phone" aria-hidden="true"></i><a href="tel:800-674-3359">(800) 674-3359</a>
+					  </span></div>
 					</div>
 				  </div>
 			</div>
@@ -130,7 +132,6 @@
 				  <!-- /.container -->
 			</div>
 		</footer>
-
 
 
 
@@ -186,10 +187,12 @@
 
 			  // Collapse the navbar when page is scrolled
 			  $(window).scroll(function() {
-				if ($(".home-logo").offset().top > 100) {
-				  $(".home-logo").addClass("logo-shrink");
+				if ($(".topnav").offset().top > 30) {
+				  $(".topnav").addClass("topnav-shrink");
+				  $(".home-logo-hide").addClass("logo-shrink");
 				} else {
-				  $(".home-logo").removeClass("logo-shrink");
+				  $(".topnav").removeClass("topnav-shrink");
+				  $(".home-logo-hide").removeClass("logo-shrink");
 				}
 			  });
 
