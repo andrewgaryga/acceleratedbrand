@@ -1102,12 +1102,21 @@ section#placement {
 #ready {
 	padding: 140px 0 60px 0;
 	position: relative;
- 	background-image: url(../img/ready.jpg);
+ 	background-image: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ), url(../img/ready.jpg);
  	background-position: center;
  	-webkit-background-size: cover;
  	-moz-background-size: cover;
  	-o-background-size: cover;
  	background-size: cover;
+}
+#ready.boxed {
+		background-image: linear-gradient(
+	     rgba(0, 0, 0, 0),
+	     rgba(0, 0, 0, 0)
+	   ), url(../img/ready.jpg);
 }
 
 	#ready h2 {
@@ -1125,17 +1134,38 @@ section#placement {
 	}
 	#ready .wrap {
 		/* layer alpha */
-		background-color: #9494943b; /* layer fill content */
+		/*background-color: #9494943b; */
+		/*background-color: #00000073;*/
 		padding: 25px 25px 15px 20px;
+	}
+	#ready.boxed .wrap {
+		background-color: #00000073;
 	}
 	#ready .wrap p {
 		font-family: "Poppins";
 		color: #fefeff;
+		font-weight: 500;
 	}
 
+#ready.ready-image {
+	padding: 50px 0 32px 0;
+	background-image: linear-gradient(
+     rgba(0, 0, 0, 0.6),
+     rgba(0, 0, 0, 0.6)
+   ), url(../img/ready2.jpg);
+}
+#ready.ready-image.ready-image-boxed {
+	background-image: url(../img/ready2.jpg);
+	height: 290px;
+	    padding: 0;
+}
+	#ready.ready-image.ready-image-boxed .wrap {
+		padding: 82px 25px 40px 20px;
+		margin-left: -15px;
+	}
 
 #steps {
-
+	background-color: #fefeff;
 }
 	#steps h2.section-heading-text {
 		margin-bottom: 70px;
