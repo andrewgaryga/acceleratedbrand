@@ -1210,7 +1210,7 @@ section#placement {
 		font-size: 18px;
 		border: 1px solid #1abc9c;
 		padding: 25px 40px;
-		line-height: 31px;
+		line-height: 37px;
 	}
 		.step-yelp {
 			width: 80px;
@@ -1218,7 +1218,7 @@ section#placement {
 		
 		}
 		.step-dosh {
-			width: 80px;
+			width: 75px;
 			margin-top: -5px;
 
 		}
