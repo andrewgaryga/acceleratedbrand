@@ -197,7 +197,8 @@ body {
 
 .overlay-content {
 		position: relative;
-		top: 25%;
+		/*top: 25%;*/
+		top: 20%;
 		width: 100%;
 		text-align: center;
 		margin-top: 30px;
@@ -308,7 +309,7 @@ body {
 		color: white;
 }
 
-.topnav span {
+.topnav span, .topnav a.back-icon {
 	cursor: pointer;
 	font-size: 35px;
 	/*margin-right: 55px;*/
