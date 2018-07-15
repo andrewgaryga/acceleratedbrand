@@ -1,0 +1,112 @@
+/*Utility*/
+.divider-default.dark {
+	background: linear-gradient(to right, #23B5D3 50%, #23B5D3 120%); 
+}
+
+/*Nav*/
+.topnav-franchise a.back-button.dark {
+	padding: 13px 21px;
+	font-family: Poppins, sans-serif;
+	font-size: 12px;
+	letter-spacing: 1.7px;
+	margin-top: 9px;
+	text-transform: uppercase;
+	font-weight: 300;
+}
+.topnav .btn-sign-static.dark {
+	background-color: transparent;
+    color: #23B5D3;
+    border-color: #23B5D3;
+    margin-right: 0;
+}
+	.topnav .btn-sign-static.dark:hover {
+		background-color: #23B5D3;
+	    color: #fff;
+	    border-color: #23B5D3;
+	}
+.topnav span, .topnav a.back-icon.dark {
+	margin-top: 5px;
+}
+.topnav .back-icon {
+	display: none;
+}
+.topnav .back-icon.show-logo {
+	display: block;
+}
+/*cta section*/
+section.cta-franchise.dark {
+	margin-top: 80px;
+	background-image: url(../img/franchise/header-bg-v4-extendet.jpg);
+	padding: 100px 0;
+}
+section.cta .cta-content h1.dark-text , section.cta .cta-content p.sub-heading.dark-text {
+	/*color: rgb(51, 51, 51);. #333* #262d36/
+	/*new*/
+
+	/*color: #2f2245;*/
+}
+	section.cta .cta-content p.sub-heading.dark-text {
+		/*font-weight: 400;*/
+		/*max-width: 470px;*/
+		/*text-shadow: 1px 3px 2px rgba(255, 255, 255, 0.2);*/
+		text-shadow: 1px 3px 2px rgba(0, 39, 41, 0.28);
+		/*new*/
+		font-weight: 300;
+		letter-spacing: 0em;
+		font-size: 18px;
+		line-height: 1.67;
+		max-width: 510px; 
+	}
+	section.cta .cta-content h1.dark-text {
+		text-shadow: none;
+/*		line-height: 1.3;
+		font-size: 42px;*/
+		/**/
+		font-family: Poppins, sans-serif;
+	    font-size: 45px;
+	    font-weight: 600;
+	    line-height: 1.2;
+	    letter-spacing: 0.035em;
+	    margin-bottom: 20px;
+	}
+/*Video*/
+section#video {
+	background-color: #EFF1F3;
+}
+
+/*Timeline*/
+.timeline > li .timeline-image:last-child {
+    border-color: #23B5D3;
+}
+
+/*How It Works*/
+section#how-it-works {
+	overflow: hidden; 
+}
+
+/*Feature*/
+@media (min-width: 1200px) {
+	#feature h5:after, #feature h5:before {
+		background: linear-gradient(to right, #23B5D3 50%, #23B5D3 120%); 
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+	}
+}
+/*whyus*/
+section#whyus.blue-scheme.dark {
+	background-color: #EFF1F3;
+	overflow: hidden;
+}
+span.arrow-icon.dark:before {
+	color: #23B5D3;
+}
+/*section payment*/ 
+section#payment.dark, section#payment.dark h2 {
+    /*background-color: #bdd5df;*/
+    /*background-color: #166088;*/
+    background-color: #046E8F;;
+    color: #fff;
+}
+section#payment.dark h3 {
+	font-weight: 300;
+}
