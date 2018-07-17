@@ -1407,8 +1407,8 @@ section#contact.blue-scheme .form-control, section#contact.blue-scheme .form-con
 	}
 /*cta*/
 section.cta-franchise {
-	background-image: url(../img/franchise/header-bg-v2.jpg);
-	padding: 150px 0;
+	background-image: url(../img/franchise/header-bg-v4-extendet.jpg);
+	padding: 135px 0;
 }
 	section.cta-franchise .cta-content h1 {
 		font-size: 23px;
@@ -1506,3 +1506,8 @@ section#whyus .img-circle {
 		  padding-right: 0;
 		}
 	}
+/*Fixing slider respnsivness after updating from bs4 alpha*/
+.carousel-item .container.franchise {
+	height: 100%;
+	position: relative;
+}

@@ -83,6 +83,11 @@ section#video {
 section#how-it-works {
 	overflow: hidden; 
 }
+/*Slider*/
+.carousel-item .container.franchise {
+	height: 100%;
+	position: relative;
+}
 
 /*Feature*/
 @media (min-width: 1200px) {
