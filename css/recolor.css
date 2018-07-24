@@ -35,6 +35,7 @@
 }
 /*cta section*/
 section.cta-franchise.dark {
+	position: relative;
 	margin-top: 80px;
 	background-image: url(../img/franchise/header-bg-v4-extendet.jpg);
 	padding: 100px 0;
@@ -45,6 +46,17 @@ section.cta .cta-content h1.dark-text , section.cta .cta-content p.sub-heading.d
 
 	/*color: #2f2245;*/
 }
+	section.cta .pagename {
+		position: absolute;
+		/*left: 0;*/
+		right: 0;
+		top: 0;
+		padding: 18px 21px;
+		background-color: #21b6d6;
+		color: #fff;
+		font-family: Poppins, sans-serif;
+		font-size: 18px;
+	}
 	section.cta .cta-content p.sub-heading.dark-text {
 		/*font-weight: 400;*/
 		/*max-width: 470px;*/
@@ -73,6 +85,9 @@ section.cta .cta-content h1.dark-text , section.cta .cta-content p.sub-heading.d
 section#video {
 	background-color: #EFF1F3;
 }
+	section#video h2.section-heading-text {
+		font-size: 1.8rem;
+	}
 
 /*Timeline*/
 .timeline > li .timeline-image:last-child {
